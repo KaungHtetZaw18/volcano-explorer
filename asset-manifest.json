@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/volcano-explorer/static/css/main.eb744c19.css",
+    "main.js": "/volcano-explorer/static/js/main.d77e2df2.js",
+    "static/js/453.dd184469.chunk.js": "/volcano-explorer/static/js/453.dd184469.chunk.js",
+    "static/media/volcano.png": "/volcano-explorer/static/media/volcano.cf59cc843814cce75d27.png",
+    "index.html": "/volcano-explorer/index.html",
+    "main.eb744c19.css.map": "/volcano-explorer/static/css/main.eb744c19.css.map",
+    "main.d77e2df2.js.map": "/volcano-explorer/static/js/main.d77e2df2.js.map",
+    "453.dd184469.chunk.js.map": "/volcano-explorer/static/js/453.dd184469.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb744c19.css",
+    "static/js/main.d77e2df2.js"
+  ]
+}
