@@ -1,0 +1,22 @@
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4d545b; /* Lighter than the navbar color */
+    color: #ddd; /* Text color */
+    border-top: 1px solid #ddd; /* Add a border on top */
+    
+}
+
+.footer p {
+    margin: 0; /* Remove default margin for paragraphs */
+}
+
+.footer a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove default underline */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.footer a:hover {
+    color: #0056b3; /* Change link color on hover */
+}

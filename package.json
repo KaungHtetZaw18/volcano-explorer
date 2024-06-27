@@ -2,20 +2,35 @@
   "name": "volcano-explorer",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://<your-username>.github.io/volcano-explorer",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "ag-grid-community": "^31.3.1",
+    "ag-grid-react": "^31.3.1",
+    "bootstrap": "^5.3.3",
+    "chart.js": "^4.4.2",
+    "d3": "^7.9.0",
+    "gh-pages": "^6.1.1",
+    "leaflet": "^1.9.4",
+    "pigeon-maps": "^0.21.5",
     "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^6.23.1",
     "react-scripts": "5.0.1",
+    "recharts": "^2.12.7",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

@@ -1,0 +1,24 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #f3f3f3; 
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full height of the viewport */
+    background-image: url('../img/volcano.png'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover; /* Cover the entire container with the background image */
+    background-position: center; /* Center the background image */
+}
+
+.container h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    color: white; /* Set text color to white */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 20px; /* Add padding to make the text more visible */
+}
